@@ -1,0 +1,31 @@
+body { 
+	 margin:0;
+	padding:0; 
+    background-color: #696969;
+}
+
+::-webkit-scrollbar
+{
+    width: 8px;
+    background-color: #bbb;
+}
+
+::-webkit-scrollbar-track
+{
+    background-color: #bbb;
+    border: 1px solid #aaa;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: #e9e9e9;
+    border: 1px solid #aaa;
+}
+
+.text{
+font-family: 'Noto Sans', sans-serif;
+	font-size: 11px; 
+	color: #666;
+	text-align:center;
+	line-height: 160%;
+}
