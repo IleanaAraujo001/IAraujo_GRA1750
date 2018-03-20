@@ -1,0 +1,176 @@
+#j-slide11 {
+margin: 0 auto;
+width: 350px;
+height: 190px;
+overflow: hidden;
+position: relative;
+border-bottom: solid 3px #02042A;
+}
+
+.j-slide12 {
+width: 350px;
+height: 40px;
+background-image: url(http://i.imgur.com/5mWjyhb.png);
+position: absolute;
+overflow: hidden;
+}
+
+.j-slidetext1 {
+width: 350px;
+height: 40px;
+position: absolute;
+overflow: hidden;
+font-family: Calibri;
+font-size: 10px;
+line-height: 40px;
+color: #f4f4f4;
+font-style: italic;
+letter-spacing: 3px;
+text-align: center; 
+z-index: 6;
+top: 0px;
+text-transform: uppercase;
+}
+
+.j-slidetext1 a:link, .j-slidetext1 a:active, .j-slidetext1 a:visited {
+font-family: Calibri;
+font-size: 10px;
+color: #f4f4f4;
+font-style: italic;
+letter-spacing: 3px;
+text-align: center; 
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.j-slidetext1 a:hover {
+font-family: Calibri;
+font-size: 10px;
+color: #f4f4f4;
+font-style: italic;
+letter-spacing: 3px;
+text-align: center; 
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.j-slide13 {
+width: 350px;
+height: 40px;
+background: -webkit-linear-gradient(#000, #02042A);
+background: -o-linear-gradient(#000, #02042A);
+background: -moz-linear-gradient(#000, #02042A);
+background: linear-gradient(#000, #02042A);
+opacity: 0.7;
+position: absolute;
+}
+
+.j-slide14 {
+width: 150px;
+height: 150px;
+position: absolute; 
+top: 40px;
+left: 0px;
+z-index: 3;
+transition: 2.0s all ease-in-out 0s;
+-webkit-transition: 2.0s all ease-in-out 0s;
+-moz-transition: 2.0s all ease-in-out 0s;
+o-transition: 2.0s all ease-in-out 0s; 
+}
+
+#j-slide11:hover .j-slide14 {
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+filter: grayscale(100%);
+transition: 2.0s all ease-in-out 0s;
+-webkit-transition: 2.0s all ease-in-out 0s;
+-moz-transition: 2.0s all ease-in-out 0s;
+o-transition: 2.0s all ease-in-out 0s; 
+}
+
+.j-slide15 {
+width: 200px;
+height: 150px;
+background-color: #f4f4f4;
+position: absolute; 
+top: 40px;
+left: 150px;
+z-index: 4;
+font-family: Calibri;
+font-size: 10px;
+color: #000; 
+text-align: justify; 
+line-height: 90%;
+}
+
+.j-slide16 {
+width: 180px;
+height: 50px;
+margin: 50px 10px;
+position: absolute;
+text-transform: uppercase;
+top: 0px;
+left: 0px;
+transition: 1.0s all ease-in-out 0.9s;
+-webkit-transition: 1.0s all ease-in-out 0.9s;
+-moz-transition: 1.0s all ease-in-out 0.9s;
+o-transition: 1.0s all ease-in-out 0.9s; 
+opacity: 1;
+}
+
+.j-slide17 {
+width: 177px;
+height: 130px;
+padding-right: 3px;
+margin: 10px;
+overflow: auto;
+position: absolute;
+left: 150px;
+top: 0px;
+z-index: 5;
+transition: 1.0s all ease-in-out 0s;
+-webkit-transition: 1.0s all ease-in-out 0s;
+-moz-transition: 1.0s all ease-in-out 0s;
+o-transition: 1.0s all ease-in-out 0s; 
+opacity: 0;
+}
+
+#j-slide11:hover .j-slide16 {
+left: 150px;
+top: 0px; 
+transition: 1.0s all ease-in-out 0s;
+-webkit-transition: 11.0s5s all ease-in-out 0s;
+-moz-transition: 1.0s all ease-in-out 0s;
+o-transition: 1.0s all ease-in-out 0s; 
+opacity: 0;
+}
+
+#j-slide11:hover .j-slide17 {
+left: 0px;
+top: 0px;
+transition: 1.0s all ease-in-out 0.9s;
+-webkit-transition: 1.0s all ease-in-out 0.9s;
+-moz-transition: 1.0s all ease-in-out 0.9s;
+o-transition: 1.0s all ease-in-out 0.9s; 
+opacity: 1;
+}
+
+.j-slide18 {
+text-align: center;
+font-family: 'Sacramento';
+position: relative;
+font-size: 35px;
+color: #CFB39D;
+text-shadow: 1px 1px 1px #791D32;
+text-transform: lowercase;
+padding-bottom: 5px;
+z-index: 7;
+}
+
+.j-slide19 {
+width: 140px;
+height: 50px;
+margin: 0 auto;
+}
